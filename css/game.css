@@ -3,12 +3,17 @@
                  border-spacing: 0;   }
 .background td { padding: 0;          }
 .lava          { background: black; }
-.wall          { background: rgb(220, 141, 50);   }
+.wall          { background: rgb(220, 141, 50);}
+
+.coin   { background: yellow; }
 .floater    { background: white;}
+.actor {position: absolute;}
+.player {background: red;}
+.diamond {background: cyan;}
 
 .game {
   overflow: hidden;
-  max-width: 600px;
+  max-width: 1200px;
   max-height: 450px;
   position: relative;
 }
