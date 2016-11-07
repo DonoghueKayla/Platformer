@@ -1,15 +1,19 @@
-.background    { background: rgb(85, 49, 16);
+.background    { background: radial-gradient(circle,grey,black);
                  table-layout: fixed;
                  border-spacing: 0;   }
 .background td { padding: 0;          }
-.lava          { background: black; }
-.wall          { background: rgb(220, 141, 50);}
+.lava          { background-image: url("img/wall.png") ;}
+.wall {background-image: url("img/Crate.png");}
+.winWall {background-image: url("img/Crate.png");}
 
-.coin   { background: yellow; }
-.floater    { background: white;}
+
+.coin   { background-image: url("img/Coin.png"); }
+.goomba   { background-image: url("img/Goomba.png");}
 .actor {position: absolute;}
-.player {background: red;}
-.diamond {background: cyan;}
+.player {background-image: url("img/player.png");}
+.diamond {background-image: url("img/Diamond.png");}
+.tramp {background: linear-gradient(cyan,green);}
+
 
 .game {
   overflow: hidden;
